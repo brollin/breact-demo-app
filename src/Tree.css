@@ -1,0 +1,13 @@
+div.Tree {
+  position: absolute;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.Tree img {
+  width: 100vw;
+  position: absolute;
+  bottom: -10rem;
+}

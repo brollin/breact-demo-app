@@ -4,10 +4,12 @@ div.Tree {
   width: 100vw;
   height: 100vh;
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .Tree img {
-  width: 100vw;
-  position: absolute;
-  bottom: -10rem;
+  height: 60vh;
+  position: fixed;
+  bottom: -15vh;
 }

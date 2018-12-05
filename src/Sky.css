@@ -1,6 +1,6 @@
 div.Sky {
   position: absolute;
-  background-color: #034878;
+  background-image: linear-gradient(rgb(0, 0, 30), #034878);
   min-height: 100vh;
   min-width: 100vw;
   display: flex;

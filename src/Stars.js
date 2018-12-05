@@ -27,15 +27,13 @@ class Stars extends Component {
           return (
             <Anime
               key={ind}
-              easing="easeOutElastic"
               duration={50000}
               direction="alternate"
               loop
-              delay={() => ind*500}
+              delay={ind*500}
               translateX={['-10vw', '110vw']}
               translateY={[star[0], star[1]]}
               rotate='1turn'
-              scale={[.75, .9]}
             >
               <div className="Stars--star" />
             </Anime>

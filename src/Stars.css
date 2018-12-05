@@ -2,7 +2,7 @@
     width: 0.5rem;
     height: 0.5rem;
     z-index: 5;
-    background-color: white;
-    border-radius: 0.25rem;
+    background-color: silver;
+    border-radius: 0.1rem;
     position: fixed;
 }

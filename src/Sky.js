@@ -5,7 +5,7 @@ class Sky extends Component {
   render() {
     return (
       <div className="Sky">
-        you're running free
+        kuro inu! bark like no one's listening
       </div>
     );
   }
